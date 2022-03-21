@@ -311,7 +311,12 @@ hobby h1{
     }
   }
 
-
+  footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 
 
@@ -407,6 +412,10 @@ hobby h1{
     padding-bottom: 5rem;
   }
 
+  .myhobby{
+    padding: 4rem;
+  }
+
   .leftbox a{
     font-size: .85rem;
   }
@@ -418,11 +427,54 @@ hobby h1{
   .icon{
     text-align: right;
   }
+
+  .grid-item{
+    width: 22rem;
+  }
+
+  .grid-item img{
+    height: 15rem;
+  }
+
+  .card-content{
+    padding: 1.5rem;
+  }
+
+  .card-content{
+    text-align: center;
+  }
+
+  .card p{
+    font-size: 1.5rem;
+  }
+
+  .card button {
+    width: 80%;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 0.75rem 1.5rem;
+  }
+  .card button span{
+    display: none;
+  }
 }
 
 @media(max-width: 480px){
+
+  header{
+    padding-bottom: 2rem;
+  }
+
   .aboutme, .Mydetails, .icon{
     text-align: center;
+  }
+
+  .grid-item{
+    width: 18rem;
+  }
+
+  .grid-item img{
+    height: 13rem;
   }
 
 }
