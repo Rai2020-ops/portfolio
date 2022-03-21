@@ -319,7 +319,7 @@ hobby h1{
 
 
 
-/*
+/* 
 @media(max-width:717px) {
     header #main-nav{
         display:none
@@ -336,5 +336,93 @@ hobby h1{
     top:40px;
     right:40px;
     z-index: 11;
+
+} */
+
+
+@media(max-width:1200px){
+  .intro{
+    padding: 2rem;
+  }
+
+  .Mydetails{
+    padding: 0 1.5rem;
+  }
+}
+
+@media(max-width: 1024px){
+  .intro img{
+    width: 300px;
+  }
+  .mypic{
+    width: 300px;
+  }
+
+  .grid-item{
+    width: 25rem;
+    margin: 0 auto 1.5rem auto
+  }
+
+  #about .container{
+    width: 80%;
+    margin: auto;
+  }
+
+  .info-para{
+    padding: 0 !important;
+  }
+}
+
+@media(max-width: 800px){
+  .intro img{
+    width: 270px;
+  }
+  .mypic{
+    width: 270px;
+  }
+  #about{
+    margin: 1.5rem 0;
+  }
+}
+
+@media(max-width: 700px){
+  .intro img{
+    width: 250px;
+  }
+  .mypic{
+    width: 240px;
+  }
+}
+
+@media(max-width: 600px){
+  .intro img{
+    width: 180px;
+  }
+  .mypic{
+    width: 220px;
+  }
+
+  .intro{
+    flex-direction: column;
+    padding-bottom: 5rem;
+  }
+
+  .leftbox a{
+    font-size: .85rem;
+  }
+
+  .about .container{
+    flex-direction: column;
+  }
+
+  .icon{
+    text-align: right;
+  }
+}
+
+@media(max-width: 480px){
+  .aboutme, .Mydetails, .icon{
+    text-align: center;
+  }
 
 }
